@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  display: block;
+  margin: 0;
+  background-color: #ECEFF4;
+  color: #2E3440;
+}
+
+input {
+  background-color: #D8DEE9;
+  border: transparent;
+  color: #3B4252;
+}
+
+button {
+  background-color: #3B4252;
+  border: transparent;
+  color: #D8DEE9;
+  border-radius: 16px;
+}
+
+nav {
+  background-color: #ECEFF4;
+  border-bottom: solid 1px #2E3440;
+}
+
+img {
+  filter: invert(17%) sepia(10%) saturate(1171%) hue-rotate(182deg) brightness(95%) contrast(89%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    background-color: #242933;
+  }
+  body {
+    background-color: #2E3440;
+    color: #ECEFF4;
+  }
+  button {
+    background-color: #3B4252;
+    border: transparent;
+    color: #ECEFF4;
+  }
+  img {
+    filter: invert(93%) sepia(7%) saturate(124%) hue-rotate(179deg) brightness(101%) contrast(95%);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
