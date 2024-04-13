@@ -30,6 +30,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/nord/src/sass/nord.scss",
               "src/styles.scss"
             ],
             "scripts": [],
@@ -95,6 +96,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/nord.scss",
               "src/styles.scss"
             ],
             "scripts": []
@@ -102,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

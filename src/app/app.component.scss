@@ -1,0 +1,33 @@
+@import "../nord.scss";
+
+.navbar {
+  .logo{
+    display: flex;
+
+  img {
+    margin: 0 8px ;
+  }
+  }
+
+  display: flex;
+  justify-content: space-between;
+  button{
+    padding: 0 16px;
+    margin: 8px;
+  }
+}
+
+
+app-login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+app-sign-up{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

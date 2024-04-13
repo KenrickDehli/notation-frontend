@@ -1,1 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
+// filter: invert(0%) sepia(0%) saturate(7496%) hue-rotate(156deg) brightness(102%) contrast(100%);
+@import "nord";
+
+$nord-dark-background: #242933;
+
+body{
+  display: block;
+  margin: 0;
+  background-color: $nord6;
+  color: $nord0;
+}
+input{
+  background-color: $nord4;
+  border: transparent;
+  color: $nord1;
+}
+
+button{
+  background-color: $nord1;
+  border: transparent;
+  color: $nord4;
+  border-radius: 16px;
+}
+
+nav {
+  background-color: $nord6;
+  border-bottom: solid 1px $nord0;
+}
+img{
+  filter: invert(17%) sepia(10%) saturate(1171%) hue-rotate(182deg) brightness(95%) contrast(89%);
+}
+
+
+
+
+
+
+// DARK MODE
+@media (prefers-color-scheme: dark) {
+
+  .navbar {
+    background-color: $nord-dark-background;
+    //border-bottom: solid 1px $nord6;
+  }
+
+  body{
+    background-color: $nord0;
+    color: $nord6;
+  }
+  input{
+  }
+
+  button{
+    background-color: $nord1;
+    border: transparent;
+    color: $nord6;
+  }
+
+  img {
+    filter: invert(93%) sepia(7%) saturate(124%) hue-rotate(179deg) brightness(101%) contrast(95%);
+  }
+}
