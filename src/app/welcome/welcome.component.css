@@ -1,0 +1,14 @@
+.welcome-card {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.welcome-signup {
+  display: flex;
+}
+.welcome-signup p {
+  align-self: center;
+  margin: 0 0.5rem 0 0;
+}
+
+/*# sourceMappingURL=welcome.component.css.map */

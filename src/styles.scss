@@ -3,7 +3,9 @@
 @import "nord";
 
 $nord-dark-background: #242933;
-
+* {
+  box-sizing: border-box;
+}
 body{
   display: block;
   margin: 0;
@@ -20,8 +22,21 @@ button{
   background-color: $nord1;
   border: transparent;
   color: $nord4;
-  border-radius: 16px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  button:hover{
+    background-color: $nord1;
+    cursor: pointer;
+  }
 }
+
+
+.text-input {
+  align-self: center;
+}
+
+
 
 nav {
   background-color: $nord6;
@@ -55,7 +70,16 @@ img{
     background-color: $nord1;
     border: transparent;
     color: $nord6;
+
   }
+
+
+  button:hover{
+    background-color: $nord6;
+    color: $nord1;
+    cursor: pointer;
+  }
+
 
   img {
     filter: invert(93%) sepia(7%) saturate(124%) hue-rotate(179deg) brightness(101%) contrast(95%);

@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
 body {
   display: block;
   margin: 0;
@@ -16,7 +20,16 @@ button {
   background-color: #3B4252;
   border: transparent;
   color: #D8DEE9;
-  border-radius: 16px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+button button:hover {
+  background-color: #3B4252;
+  cursor: pointer;
+}
+
+.text-input {
+  align-self: center;
 }
 
 nav {
@@ -40,6 +53,11 @@ img {
     background-color: #3B4252;
     border: transparent;
     color: #ECEFF4;
+  }
+  button:hover {
+    background-color: #ECEFF4;
+    color: #3B4252;
+    cursor: pointer;
   }
   img {
     filter: invert(93%) sepia(7%) saturate(124%) hue-rotate(179deg) brightness(101%) contrast(95%);
